@@ -21,9 +21,3 @@ Homepage = "https://github.com/Timecraft122/Verbe-irregulier"
 
 [project.scripts]
 verbe-irregulier-test = "verbe_irreg.__main__:main"
-
-[tool.setuptools.packages.find]
-namespaces = true
-
-[tool.setuptools.package-data]
-"verbe_irreg.data" = ["*.txt"]

@@ -12,9 +12,9 @@ def load_list():
         \t >>>""")
 
         if n == "all" :
-            found_file = os.path.exists("data/liste_1.txt")
+            found_file = os.path.exists("https://github.com/Timecraft122/Verbe_irregulier/blob/main/verbe_irreg/data/liste_1.txt")
         else :
-            found_file = os.path.exists("data/liste_%s.txt"%(n))
+            found_file = os.path.exists("https://github.com/Timecraft122/Verbe_irregulier/blob/main/verbe_irreg/data/liste_%s.txt"%(n))
         
         if found_file == False :
             print("Ce fichier n'éxiste pas !")
@@ -22,7 +22,7 @@ def load_list():
     if n == "all" :
         n = 1
         while found_file == True :
-            liste = open("data/liste_%s.txt"%(n), 'r')
+            liste = open("https://github.com/Timecraft122/Verbe_irregulier/blob/main/verbe_irreg/data/liste_%s.txt"%(n), 'r')
             for line in liste:
                 line = line.strip()
                 verb_split = line.split(' ')
@@ -32,9 +32,9 @@ def load_list():
                 trad = verb_split[3]
                 verbes[inf] = [pret,past,trad]
             n += 1
-            found_file = os.path.exists("data/liste_%s.txt"%(n))
+            found_file = os.path.exists("https://github.com/Timecraft122/Verbe_irregulier/blob/main/verbe_irreg/data/liste_%s.txt"%(n))
     else :
-        liste = open("data/liste_%s.txt"%(n), 'r')
+        liste = open("https://github.com/Timecraft122/Verbe_irregulier/blob/main/verbe_irreg/data/liste_%s.txt"%(n), 'r')
         for line in liste:
             line = line.strip()
             verb_split = line.split(' ')
