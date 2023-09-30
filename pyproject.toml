@@ -3,8 +3,8 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "verbe_irreg"
-version = "1.6.0"
+name = "verbe_irregulier"
+version = "1.6.1"
 authors = [
     {name = "Timecraft122", email = "timecraft122@gmail.com"},
 ]
@@ -20,4 +20,4 @@ classifiers = [
 Homepage = "https://github.com/Timecraft122/Verbe-irregulier"
 
 [project.scripts]
-verbe-irregulier-test = "verbe_irreg.__main__:main"
+verbe-irregulier = "verbe_irreg.__main__:main"
