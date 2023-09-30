@@ -1,5 +1,6 @@
 README.rst
 pyproject.toml
+.github/workflows/python-publish.yml
 verbe_irreg/__init__.py
 verbe_irreg/__main__.py
 verbe_irreg/games_mode.py
