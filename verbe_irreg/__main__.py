@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 import random
 import os
-from games_mode import *
-from load_list import *
+import games_mode
+import load_list
 
 def main():
     verbes = {}
 
-    verbes = load_list()
+    verbes = load_list.load_list()
     
     while True:
     
@@ -48,13 +48,13 @@ def main():
         if jeu == "1":
             numb = input("\t Combien de fois souhaitez vous faire la liste ? >>>  ")
             numb = int(numb)
-            infinitif(numb,verbes)
+            games_mode.infinitif(numb,verbes)
         elif jeu == "2":
             numb = input("\t Combien de fois souhaitez vous faire la liste ? >>>  ")
             numb = int(numb)
-            traduction(numb,verbes)
+            games_mode.traduction(numb,verbes)
         elif jeu == "3":
-            load_list()
+            verbes = load_list.load_list()
         elif jeu == "4":
             break
 
