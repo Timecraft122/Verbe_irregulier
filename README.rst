@@ -1,3 +1,5 @@
+(pas a jour)
+
 =================
 Verbe irregulier
 =================
