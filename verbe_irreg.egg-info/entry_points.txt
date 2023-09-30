@@ -1,2 +1,0 @@
-[console_scripts]
-verbe-irregulier-test = verbe_irreg.__main__:main
