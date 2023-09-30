@@ -1,11 +1,10 @@
-#!/usr/bin/python -tt
-# -*- coding: utf-8 -*-
 import random
 import os
 import games_mode
 import load_list
 
-def main():
+
+def menu():
     verbes = {}
 
     verbes = load_list.load_list()
@@ -57,7 +56,3 @@ def main():
             verbes = load_list.load_list()
         elif jeu == "4":
             break
-
-
-
-main()
