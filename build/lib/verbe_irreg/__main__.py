@@ -1,10 +1,11 @@
+#!/usr/bin/python -tt
+# -*- coding: utf-8 -*-
 import random
 import os
-import games_mode
-import load_list
+from verbe_irreg import games_mode
+from verbe_irreg import load_list
 
-
-def menu():
+def main():
     verbes = {}
 
     verbes = load_list.load_list()
@@ -56,3 +57,8 @@ def menu():
             verbes = load_list.load_list()
         elif jeu == "4":
             break
+
+
+
+if __name__ == "__main__":
+    main()

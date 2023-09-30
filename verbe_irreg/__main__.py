@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import random
 import os
-import games_mode
-import load_list
+from verbe_irreg import games_mode
+from verbe_irreg import load_list
 
 def main():
     verbes = {}

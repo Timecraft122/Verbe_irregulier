@@ -20,10 +20,10 @@ classifiers = [
 Homepage = "https://github.com/Timecraft122/Verbe-irregulier"
 
 [project.scripts]
-verbe-irregulier-test = "verbe_irreg.__main__:menu"
+verbe-irregulier-test = "verbe_irreg.__main__:main"
 
-[tool.setuptools.packages.find]
-where = ["verbe_irreg"]
+
 
 [tool.setuptools.package-data]
-src = ["*.txt"]
+verbe_irreg = ["data/*.txt"]
+
