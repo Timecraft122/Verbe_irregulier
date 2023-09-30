@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verbe_irregulier"
+version = "1.5.8"
+authors = [
+    {name = "Timecraft122", email = "timecraft122@gmail.com"},
+]
+description = "Programme de revision des verbe irregulier"
+readme = "README.rst"
+requires-python = ">=3.0"
+keywords = ["verbe_irregulier"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/Timecraft122/Verbe-irregulier"
+
+[project.scripts]
+verbe-irregulier = "verbe_irregulier.verbes_irreg:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.txt"]
