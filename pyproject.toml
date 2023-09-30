@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "verbe_irreg"
-version = "1.5.10"
+version = "1.6.0"
 authors = [
     {name = "Timecraft122", email = "timecraft122@gmail.com"},
 ]
