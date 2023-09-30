@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -20,10 +20,10 @@ classifiers = [
 Homepage = "https://github.com/Timecraft122/Verbe-irregulier"
 
 [project.scripts]
-verbe-irregulier = "verbes_irreg:main"
+verbe-irregulier-test = "__main__:main"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["verbe_irreg"]
 
 [tool.setuptools.package-data]
-"*" = ["*.txt"]
+src = ["*.txt"]
