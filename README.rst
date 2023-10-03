@@ -1,5 +1,3 @@
-(pas a jour)
-
 =================
 Verbe irregulier
 =================
@@ -9,8 +7,9 @@ Un programme pour apprendre les verbe irregulier
 
 Instalation
 ============
-telecharger la derniere realase et la decompresser
+installer python https://www.python.org/downloads/
+telecharger la dernière realase et la decomprésser
 
 Lancement
 ============
-executer le fichier __main__.py situe dans le dossier verbe_ireg
+executer le fichier __main__.py situé dans le dossier verbe_ireg
